@@ -38,3 +38,8 @@ end
 def sum_array(integers)
   integers.inject{|sum, n| sum + n}
 end
+
+#9
+def add_s(array)
+  array.each_with_index.collect{|element,index| index !=1 ? element +"s" : element}
+end
