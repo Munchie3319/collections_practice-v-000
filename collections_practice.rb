@@ -28,3 +28,13 @@ def kesha_maker(strings)
   end
   kesha_strings
 end
+
+#7
+def find_a(strings)
+  strings.select{|select| string.start_with?("a")}
+end
+
+#8
+def sum_array(integers)
+  integers.inject{|sum, n| sum + n}
+end
