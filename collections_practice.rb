@@ -18,3 +18,13 @@ end
 def reverse_array(integers)
   integers.reverse
 end
+
+#6
+def kesha_maker(strings)
+  kesha_strings = []
+  strings.each do |string|
+    string.sub!(string.slice(2), "$")
+    kesha_strings << string
+  end
+  kesha_strings
+end
